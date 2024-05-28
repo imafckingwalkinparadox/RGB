@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+:root {
+    :root {
+        --color-rojo-vivo: rgb(255, 0, 0);
+        --color-verde-limon: rgb(0, 255, 0);
+        --color-azul-electrico: rgb(0, 0, 255);
+        --color-amarillo: rgb(255, 255, 0);
+        --color-cian: rgb(0, 255, 255);
+        --color-magenta: rgb(255, 0, 255);
+        --color-naranja: rgb(255, 165, 0);
+        --color-purpura: rgb(128, 0, 128);
+        --color-rosa: rgb(255, 192, 203);
+        --color-lima: rgb(0, 255, 127);
+    }
+}

@@ -1,0 +1,55 @@
+.tablero {
+    width: 50rem;
+    height: 50rem;
+    padding: 1rem;
+
+    margin: auto;
+    margin-top: 100px;
+
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10,1fr);
+}
+
+.tablero div {
+    padding: 1rem;
+    border: 1px solid black;
+
+    cursor: pointer;
+    transition: 3s;
+}
+
+.tablero div:hover {
+    transition: 0.3 cbzs;
+    background-color: black;
+}
+.c1:hover {
+    background-color: var(--c1);
+}
+.c2:hover {
+    background-color: var(--c2);
+}
+.c3:hover{
+    background-color: var(--c3);
+}
+.c4:hover {
+    background-color: var(--c4);
+}
+.c5:hover {
+    background-color: var(--c5);
+}
+.c6:hover {
+    background-color: var(--c6);
+}
+.c7:hover {
+    background-color: var(--c7);
+}
+.c8:hover {
+    background-color: var(--c8);
+}
+.c9:hover {
+    background-color: var(--c9);
+}
+.c10:hover {
+    background-color: var(--c10);
+}
